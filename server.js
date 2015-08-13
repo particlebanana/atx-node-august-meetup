@@ -20,9 +20,9 @@ app.get('/', function (req, res) {
 
   async.whilst(
 
-    // while count < 1000
+    // while count < 100
     function () {
-      return count < 1000;
+      return count < 100;
     },
 
     // queue up email operations
