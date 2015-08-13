@@ -15,7 +15,7 @@ var queue;
 // define a simple route
 app.get('/', function (req, res) {
 
-  // Send 1000 "emails"
+  // Send 100 "emails"
   var count = 0;
 
   async.whilst(
