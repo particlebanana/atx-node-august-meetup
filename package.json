@@ -1,0 +1,17 @@
+{
+  "name": "august-atx-node-demo",
+  "version": "1.0.0",
+  "description": "A demo project showing how to to use background jobs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "express": "^4.13.3",
+    "node-resque": "^0.16.4"
+  }
+}
